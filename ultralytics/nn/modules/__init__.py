@@ -47,6 +47,7 @@ from .block import (
     CBFuse,
     CBLinear,
     ContrastiveHead,
+    CoordAtt,
     GhostBottleneck,
     HGBlock,
     HGStem,
@@ -59,7 +60,6 @@ from .block import (
     ResNetLayer,
     SCDown,
     TorchVision,
-    CoordAtt,
 )
 from .conv import (
     CBAM,
@@ -148,6 +148,7 @@ __all__ = (
     "Conv",
     "Conv2",
     "ConvTranspose",
+    "CoordAtt",
     "DWConv",
     "DWConvTranspose2d",
     "DeformableTransformerDecoder",
@@ -188,5 +189,4 @@ __all__ = (
     "YOLOESegment",
     "YOLOESegment26",
     "v10Detect",
-    "CoordAtt",
 )
